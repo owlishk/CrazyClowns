@@ -69,6 +69,22 @@ figcaption{
   float: left;
 }
 
+footer {
+  float: clear;
+  font-family: 'Roboto Mono', sans serif;
+  background-color: rgba(255,140,000,.6);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+ul {
+ text-align: center;
+ display: inline;
+ list-style-type: none;
+}
+
 
 
 

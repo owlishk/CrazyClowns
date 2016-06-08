@@ -2,10 +2,32 @@ body{
  background-color: rgba(255,140,000,.6);
 }
 
+header{
+  background-color: rgba(255,140,000,.6);
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
 h1{
  width: 100%;
  font-family: 'Abril Fatface', 'cursive';
- background-color: rgba(255,140,000,.6);
- text-align: center;s
+
+ text-align: center;
 }
 
+footer {
+  float: clear;
+  font-family: 'Roboto Mono', sans serif;
+  background-color: rgba(255,140,000,.6);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+ul {
+ text-align: center;
+ display: inline;
+ list-style-type: none;
+}
