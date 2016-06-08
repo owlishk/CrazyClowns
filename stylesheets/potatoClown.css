@@ -1,0 +1,74 @@
+body{
+ background-color: rgba(255,140,000,.6);
+}
+
+h1{
+ width: 100%;
+ font-family: 'Abril Fatface', 'cursive';
+ background-color: rgba(255,140,000,.6);
+ text-align: center;
+}
+
+figcaption{
+ font-family: 'Roboto Mono', Arial, serif; font-weight: 400; 
+ float: right;
+ margin-right: 60px;
+}
+
+#head {
+ float: clear;
+ float: right;
+ margin-top: 20px;
+ margin-right: 50px;
+ width: 300px;
+}
+
+.parts {
+ width: 70%;
+}
+
+.eyes {
+ width: 160px;
+ float: clear;
+ float: left;
+}
+
+.hair {
+ width: 330px;
+ float: clear;
+ float: left;
+}
+
+.insane-hair {
+ width: 450px;
+ float: clear;
+ float: left;
+}
+
+.cruz-hair {
+ width: 300px;
+ float: clear;
+ float: left;
+}
+
+.mouth {
+ width: 100px; 
+ float: clear;
+ float: left;
+}
+
+.insane-mouth {
+  width: 250px; 
+  float: clear;
+  float: left;
+}
+
+.cruz-mouth {
+  width: 150px; 
+  float: clear;
+  float: left;
+}
+
+
+
+

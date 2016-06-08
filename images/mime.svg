@@ -1,62 +1,43 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 100 120" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.41421;">
- 
-<!-- head-->
-    <g transform="matrix(1.496,0,0,1.2226,-43.7367,-2.65805)">
+    <g transform="matrix(1.496,0,0,1.2226,-44.0601,-14.7487)">
         <ellipse cx="62.874" cy="59.186" rx="23.559" ry="34.145" style="fill:white;stroke-width:0.73px;stroke:black;"/>
     </g>
- 
-<!-- eyebrow left-->
-    <g transform="matrix(-3.23528e-16,1.7612,-1,-1.83697e-16,111.554,16.4537)">
+    <g transform="matrix(-3.23528e-16,1.7612,-1,-1.83697e-16,111.882,9.37205)">
         <path d="M30.055,69.702C27.114,69.702 24.725,73.697 24.725,78.618C24.725,83.538 27.114,87.533 30.055,87.533C27.849,86.79 26.058,83.051 26.058,78.618C26.058,74.184 27.849,70.445 30.055,69.702Z" style="fill:black;stroke-width:0.7px;stroke:black;"/>
     </g>
- 
-<!-- eyebrow right-->
-    <g transform="matrix(-3.23528e-16,1.7612,-1,-1.83697e-16,146.161,16.4537)">
+    <g transform="matrix(-3.23528e-16,1.7612,-1,-1.83697e-16,146.488,9.37205)">
         <path d="M30.055,69.702C27.114,69.702 24.725,73.697 24.725,78.618C24.725,83.538 27.114,87.533 30.055,87.533C27.849,86.79 26.058,83.051 26.058,78.618C26.058,74.184 27.849,70.445 30.055,69.702Z" style="fill:black;stroke-width:0.7px;stroke:black;"/>
     </g>
- 
-<!-- eye outline left-->
-    <g transform="matrix(1,0,0,1,-0.350265,0)">
+    <g transform="matrix(1,0,0,1,-0.0229225,-7.08164)">
         <ellipse cx="33.287" cy="73.602" rx="6.548" ry="3.9" style="fill:none;stroke-width:1px;stroke:black;"/>
     </g>
- 
-<!-- eye pupil left-->
-    <g transform="matrix(1,0,0,1,-3.62447,-3.12095)">
+    <g transform="matrix(1,0,0,1,-3.29713,-10.2026)">
         <ellipse cx="36.561" cy="76.723" rx="3.274" ry="3.121" style="fill:black;stroke-width:1px;stroke:black;"/>
     </g>
- 
-<!-- eye outline right-->
-    <g transform="matrix(1,0,0,1,33.6705,-0.778685)">
+    <g transform="matrix(1,0,0,1,33.9978,-7.86033)">
         <ellipse cx="33.287" cy="73.602" rx="6.548" ry="3.9" style="fill:none;stroke-width:1px;stroke:black;"/>
     </g>
- 
-<!-- eye pupil right-->
-    <g transform="matrix(1,0,0,1,30.5713,-3.89964)">
+    <g transform="matrix(1,0,0,1,30.8986,-10.9813)">
         <ellipse cx="36.561" cy="76.723" rx="3.274" ry="3.121" style="fill:black;stroke-width:1px;stroke:black;"/>
     </g>
- 
-<!-- triangle left eye-->
-    <g transform="matrix(-1,3.21625e-16,-3.21625e-16,-1,64.2357,168.874)">
+    <g transform="matrix(-1,3.21625e-16,-3.21625e-16,-1,64.5631,161.792)">
         <path d="M31.299,83.732L32.936,91.372L29.662,91.372L31.299,83.732Z" style="fill:black;stroke-width:1px;stroke:black;"/>
     </g>
- 
-<!-- triangle right eye-->
-    <g transform="matrix(-1,3.21625e-16,-3.21625e-16,-1,98.4864,168.095)">
+    <g transform="matrix(-1,3.21625e-16,-3.21625e-16,-1,98.8137,161.014)">
         <path d="M31.299,83.732L32.936,91.372L29.662,91.372L31.299,83.732Z" style="fill:black;stroke-width:1px;stroke:black;"/>
     </g>
- 
-<!-- mouth-->
-    <g transform="matrix(-1,3.21625e-16,-4.983e-16,-1.54932,99.2705,243.484)">
+    <g transform="matrix(-1,3.21625e-16,-4.983e-16,-1.54932,99.5978,236.402)">
         <path d="M57.745,99.03C58.604,98.593 59.056,98.097 59.056,97.592C59.056,96.005 54.671,94.716 49.27,94.716C43.87,94.716 39.485,96.005 39.485,97.592C39.485,98.097 39.937,98.593 40.796,99.03L57.745,99.03Z" style="fill:rgb(205,40,40);"/>
     </g>
- 
-<!-- hat brim-->
-    <rect class="hat-brim" x="5.486" y="43.588" width="88.373" height="9.562" style="fill:black;stroke-width:1px;stroke:black;"/>
- 
-<!-- hat top-->
-    <g class="hat-top" transform="matrix(1,0,0,1,0.787109,0)">
+    <g transform="matrix(1,0,0,1,0.327342,-7.08164)">
+        <rect x="5.486" y="43.588" width="88.373" height="9.562" style="fill:black;stroke-width:1px;stroke:black;"/>
+    </g>
+    <g transform="matrix(1,0,0,1,1.11445,-7.08164)">
         <rect x="17.3" y="22.715" width="63.17" height="20.872" style="fill:black;stroke-width:1px;stroke:black;"/>
+    </g>
+    <g transform="matrix(0.473794,0,0,0.505335,25.866,39.5343)">
+        <ellipse cx="50.938" cy="71.979" rx="7.113" ry="7.479" style="fill:none;stroke-width:2.04px;stroke:black;"/>
     </g>
 </svg>

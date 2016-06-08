@@ -1,0 +1,58 @@
+*{
+ margin: 0;
+}
+
+body {
+ background-image: url(../images/background.jpg);
+ background-size: 100%;
+ background-repeat: no-repeat;
+}
+
+a {
+ rgb(66,52,35);
+ text-decoration:none
+}
+
+a:link {
+ rgb(66,52,35);
+ text-decoration:none
+}
+
+a:visited {
+ rgb(66,52,35);
+ text-decoration:none
+}
+a:hover {
+ rgb(66,52,35);
+ text-decoration:none
+}
+a:active {
+ rgb(66,52,35);
+ text-decoration:none
+}
+
+.circles {
+  text-align:center;
+  margin: 100px;
+}
+
+
+ul {
+ list-style: none;
+}
+
+li {
+ display:inline;
+ padding: 40px;
+ background: rgba(255,140,000,.7);
+ color: rgb(66,52,35);
+ text-decoration: none;
+ font-family: 'Abril Fatface', 'cursive';
+ font-size: 1.8em;
+ border-style: double;
+ border-color: rgb(246,255,0);
+ border-radius: 50%;
+ border-width: thick;
+ text-align: center;
+}
+

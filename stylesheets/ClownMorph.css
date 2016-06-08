@@ -1,0 +1,63 @@
+body{
+ background-color: rgba(255,140,000,.6);
+}
+
+h1{
+ width: 100%;
+ font-family: 'Abril Fatface', 'cursive';
+ background-color: rgba(255,140,000,.6);
+ text-align: center;s
+}
+
+form {
+ font-family: 'Roboto Mono', sans-serif;
+ margin: auto;
+ position: relative;
+}
+
+form label {
+ padding-right: 10px;
+}
+
+button{
+ margin-top: 20px;
+ float: left;
+ }
+
+select{
+ margin: 20px;
+}
+
+#action {
+ float: clear;
+ float: left;
+}
+
+#reset {
+ float: clear;
+ display:block;
+}
+
+
+/*below is formatting for the divs with the results*/
+
+
+#clown1result {
+ float: clear;
+ float: left;
+}
+
+#result {
+ float: clear;
+ float: left;
+ margin-left: 20px;
+}
+
+#morph {
+ float: clear;
+ float: left;
+ margin-left: 20px;
+}
+
+
+

@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Clown Morph</title>
+   
+      <!--CDN link for  TweenMax-->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js"></script>
+<!--   google fonts-->
+   <link href='https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto+Mono' rel='stylesheet' type='text/css'>
+
+       <!-- link to an external style sheet (best practice with style sheet)-->
+    <link href="stylesheets/ClownMorph.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+   
+   <h1>Watch One Clown Morph into Another</h1>
+   
+   <div class="clown1">
+    <form id="clownPickList1">
+       <label for="clownPickList1">Pick A Clown to Start</label>
+    </form>
+    
+     <select id="clowns1" name="clowns1" form="clownPickList1">
+       <option value="scary-clown">Scary Clown</option>
+       <option value="happy-clown">Happy Clown</option>
+       <option value="mime">Mime</option>
+       <option value="insane-posse">Insane Clown Posse</option>
+       <option value="ted-cruz">Ted Cruz</option>
+     </select>
+      <button id="submit1" for="clownPickList1">Submit</button>
+
+   </div>
+   
+    
+   <div class="clown2">
+    <form id="clownPickList2">
+       <label for="clownPickList2">Pick A Clown to Morph Into</label>
+     </form>
+    
+     <select name="clowns2" id="clowns2" form="clownPickList2">
+       <option value="scary-clown">Scary Clown</option>
+       <option value="happy-clown">Sweet Clown</option>
+       <option value="mime">Mime</option>
+       <option value="insane-posse">Insane Clown Posse</option>
+       <option value="ted-cruz">Ted Cruz</option>
+     </select>
+     <button id="submit2">Submit</button>
+   </div>
+   
+   <button id="action">Morph!</button>
+   <button id="reset">Reset</button></br></br>
+
+
+   <div class="images">
+    </br>
+    <div id="clown1result" class="holder">
+    </div>
+
+    <div id="result">
+    </div>
+
+    <div id="morph">
+    </div>
+   </div>
+
+
+   
+
+  
+   
+    <!--jquery scripts-->
+    <script   src="https://code.jquery.com/jquery-1.12.3.js"   integrity="sha256-1XMpEtA4eKXNNpXcJ1pmMPs8JV+nwLdEqwiJeCQEkyc="   crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+<!--   local javascript file-->
+    <script src="javascript/ClownMorph.js" type="text/javascript"></script></script>
+
+
+  </body>
+</html>
