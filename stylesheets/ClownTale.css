@@ -12,9 +12,19 @@ header{
 h1{
  width: 100%;
  font-family: 'Abril Fatface', 'cursive';
-
  text-align: center;
 }
+
+img {
+ width: 20%;
+}
+
+figcapture{
+  font-family: 'Roboto Mono', sans serif;
+  margin-left: -200px;
+  text-align: center;
+}
+
 
 footer {
   float: clear;
