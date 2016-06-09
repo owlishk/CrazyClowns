@@ -59,6 +59,31 @@ select{
  margin-left: 20px;
 }
 
+/*table formatting*/
+
+
+.form-cell {
+/* padding-top: 220px;*/
+}
+
+.image-cell{
+ width: 60%;
+ padding-left: 30px;
+ padding-top: -100px;
+}
+
+/*stacking divs*/
+
+.images{
+ position: relative;
+}
+
+.holder {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 /*footer formatting*/
 
 footer {

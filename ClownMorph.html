@@ -16,54 +16,73 @@
    
    <h1>Watch One Clown Morph into Another</h1>
    
-   <div class="clown1">
-    <form id="clownPickList1">
-       <label for="clownPickList1">Pick A Clown to Start</label>
-    </form>
+   <table>
     
-     <select id="clowns1" name="clowns1" form="clownPickList1">
-       <option value="scary-clown">Scary Clown</option>
-       <option value="happy-clown">Happy Clown</option>
-       <option value="mime">Mime</option>
-       <option value="insane-posse">Insane Clown Posse</option>
-       <option value="ted-cruz">Ted Cruz</option>
-     </select>
-      <button id="submit1" for="clownPickList1">Submit</button>
+    <tr>
+     <td class="form-cell">
+      <div class="clown1">
+       <form id="clownPickList1">
+          <label for="clownPickList1">Pick A Clown to Start</label>
+       </form>
 
-   </div>
+        <select id="clowns1" name="clowns1" form="clownPickList1">
+          <option value="scary-clown">Scary Clown</option>
+          <option value="happy-clown">Happy Clown</option>
+          <option value="mime">Mime</option>
+          <option value="insane-posse">Insane Clown Posse</option>
+          <option value="ted-cruz">Ted Cruz</option>
+        </select>
+         <button id="submit1" for="clownPickList1">Submit</button>
+
+      </div>
    
     
-   <div class="clown2">
-    <form id="clownPickList2">
-       <label for="clownPickList2">Pick A Clown to Morph Into</label>
-     </form>
-    
-     <select name="clowns2" id="clowns2" form="clownPickList2">
-       <option value="scary-clown">Scary Clown</option>
-       <option value="happy-clown">Sweet Clown</option>
-       <option value="mime">Mime</option>
-       <option value="insane-posse">Insane Clown Posse</option>
-       <option value="ted-cruz">Ted Cruz</option>
-     </select>
-     <button id="submit2">Submit</button>
-   </div>
+      <div class="clown2">
+       <form id="clownPickList2">
+          <label for="clownPickList2">Pick A Clown to Morph Into</label>
+        </form>
+
+        <select name="clowns2" id="clowns2" form="clownPickList2">
+          <option value="scary-clown">Scary Clown</option>
+          <option value="happy-clown">Happy Clown</option>
+          <option value="mime">Mime</option>
+          <option value="insane-posse">Insane Clown Posse</option>
+          <option value="ted-cruz">Ted Cruz</option>
+        </select>
+        <button id="submit2">Submit</button>
+      </div>
+
+      <button id="action">Morph!</button>
+      <button id="reset">Reset</button></br></br>
    
-   <button id="action">Morph!</button>
-   <button id="reset">Reset</button></br></br>
+     </td>
 
+     <td class="image-cell">
+        <div class="images">
+         </br>
+      
+         <div id="head" class="holder">
+         </div>
+         
+         <div id="hair" class="holder">
+         </div>
+      
+         <div id="eyes" class="eyes2 holder">
+         </div>
+      
+         <div id="eyes-x" class="holder">
+         </div>
+      
+         <div id="mouth" class="holder">
+         </div>
+      
+         <div id="test" class="holder">
+         </div>
+       </div>
+     </td>
+</tr>
 
-   <div class="images">
-    </br>
-    <div id="clown1result" class="holder">
-    </div>
-
-    <div id="result">
-    </div>
-
-    <div id="morph">
-    </div>
-   </div>
-
+   </table>
 
    <footer>
     <ul>
