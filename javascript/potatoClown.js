@@ -15,3 +15,13 @@ Draggable.create("#hair-insane-posse");
 Draggable.create("#eyes-happy-clown");
 Draggable.create("#mouth-happy-clown");
 Draggable.create("#hair-happy-clown");
+
+
+//===================================
+ $("#reset").on('click', reset)
+
+//===========reset function======
+ 
+function reset( evt){
+ location.reload();
+}

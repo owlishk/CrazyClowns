@@ -1,12 +1,17 @@
 body{
  background-color: rgba(255,140,000,.6);
+ margin: 0;
 }
 
 h1{
- width: 100%;
  font-family: 'Abril Fatface', 'cursive';
+}
+
+header{
  background-color: rgba(255,140,000,.6);
- text-align: center;s
+ text-align: center;
+ margin-top: -20px;
+}
 }
 
 form {
