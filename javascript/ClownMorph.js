@@ -241,103 +241,103 @@ function morphChoice( evt ){
   }
  
   function morphToTed(){
-   $('#eyes2').fadeOut("slow", function(){
+   $('#eyes2').fadeOut(1500, function(){
     var div = $('<div id="eyes3" class="holder">' + tedcruz[0] + tedcruz[1] + '</div>').hide();
     $(this).replaceWith(div);
-    $('#eyes3').fadeIn("slow");
+    $('#eyes3').fadeIn(1500);
   });
   
-     $('#mouth2').fadeOut("slow", function(){
+     $('#mouth2').fadeOut(1200, function(){
     var div = $('<div id="mouth3" class="holder">' + tedcruz[0] + tedcruz[2] + '</div>').hide();
     $(this).replaceWith(div);
-    $('#mouth3').fadeIn("slow");
+    $('#mouth3').fadeIn(1200);
 });
   
-     $('#hair2').fadeOut("slow", function(){
+     $('#hair2').fadeOut(1300, function(){
     var div = $('<div id="hair3" class="holder">' + tedcruz[0] + tedcruz[3] + '</div>').hide();
     $(this).replaceWith(div);
-    $('#hair3').fadeIn("slow");
+    $('#hair3').fadeIn(1300);
 });
   
  }  
  
  function morphToHappy(){
-   $('#eyes2').fadeOut("slow", function(){
+   $('#eyes2').fadeOut(1500, function(){
     var div = $('<div id="eyes3" class="holder">' + happyclown[0] + happyclown[1] + '</div>').hide();
     $(this).replaceWith(div);
-    $('#eyes3').fadeIn("slow");
+    $('#eyes3').fadeIn(1500);
   });
   
-     $('#mouth2').fadeOut("slow", function(){
+     $('#mouth2').fadeOut(1200, function(){
     var div = $('<div id="mouth3" class="holder">' + happyclown[0] + happyclown[2] + '</div>').hide();
     $(this).replaceWith(div);
-    $('#mouth3').fadeIn("slow");
+    $('#mouth3').fadeIn(1200);
 });
   
-     $('#hair2').fadeOut("slow", function(){
+     $('#hair2').fadeOut(1400, function(){
     var div = $('<div id="hair3" class="holder">' + happyclown[0] + happyclown[3] + '</div>').hide();
     $(this).replaceWith(div);
-    $('#hair3').fadeIn("slow");
+    $('#hair3').fadeIn(1400);
 });
  }
   
    function morphToInsane(){
-   $('#eyes2').fadeOut("slow", function(){
+   $('#eyes2').fadeOut(1500, function(){
     var div = $('<div id="eyes3" class="holder">' + insaneClown[0] + insaneClown[1] + '</div>').hide();
     $(this).replaceWith(div);
-    $('#eyes3').fadeIn("slow");
+    $('#eyes3').fadeIn(1500);
   });
   
-     $('#mouth2').fadeOut("slow", function(){
+     $('#mouth2').fadeOut(1300, function(){
     var div = $('<div id="mouth3" class="holder">' + insaneClown[0] + insaneClown[2] + '</div>').hide();
     $(this).replaceWith(div);
-    $('#mouth3').fadeIn("slow");
+    $('#mouth3').fadeIn(1300);
 });
   
-     $('#hair2').fadeOut("slow", function(){
+     $('#hair2').fadeOut(1600, function(){
     var div = $('<div id="hair3" class="holder">' + insaneClown[0] + insaneClown[3] + '</div>').hide();
     $(this).replaceWith(div);
-    $('#hair3').fadeIn("slow");
+    $('#hair3').fadeIn(1600);
 });
    }
     
        function morphToScary(){
-   $('#eyes2').fadeOut("slow", function(){
+   $('#eyes2').fadeOut(1500, function(){
     var div = $('<div id="eyes3" class="holder">' + scaryClown[0] + scaryClown[1] + '</div>').hide();
     $(this).replaceWith(div);
-    $('#eyes3').fadeIn("slow");
+    $('#eyes3').fadeIn(1500);
   });
   
-     $('#mouth2').fadeOut("slow", function(){
+     $('#mouth2').fadeOut(1200, function(){
     var div = $('<div id="mouth3" class="holder">' + scaryClown[0] + scaryClown[2] + '</div>').hide();
     $(this).replaceWith(div);
-    $('#mouth3').fadeIn("slow");
+    $('#mouth3').fadeIn(1200);
 });
   
-     $('#hair2').fadeOut("slow", function(){
+     $('#hair2').fadeOut(1200, function(){
     var div = $('<div id="hair3" class="holder">' + scaryClown[0] + scaryClown[3] + '</div>').hide();
     $(this).replaceWith(div);
-    $('#hair3').fadeIn("slow");
+    $('#hair3').fadeIn(1200);
 });
   }
  
    function morphToMime(){
-   $('#eyes2').fadeOut("slow", function(){
+   $('#eyes2').fadeOut(1500, function(){
     var div = $('<div id="eyes3" class="holder">' + mime[0] + mime[1] + '</div>').hide();
     $(this).replaceWith(div);
-    $('#eyes3').fadeIn("slow");
+    $('#eyes3').fadeIn(1500);
   });
   
-     $('#mouth2').fadeOut("slow", function(){
+     $('#mouth2').fadeOut(1400, function(){
     var div = $('<div id="mouth3" class="holder">' + mime[0] + mime[2] + '</div>').hide();
     $(this).replaceWith(div);
-    $('#mouth3').fadeIn("slow");
+    $('#mouth3').fadeIn(1400);
 });
   
-     $('#hair2').fadeOut("slow", function(){
+     $('#hair2').fadeOut(1700, function(){
     var div = $('<div id="hair3" class="holder">' + mime[0] + mime[3] + '</div>').hide();
     $(this).replaceWith(div);
-    $('#hair3').fadeIn("slow");
+    $('#hair3').fadeIn(1700);
 });
   }
  
